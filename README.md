@@ -1,6 +1,8 @@
 # Buildar
 
-TODO: Write a gem description
+No longer must you write JSON to create Packer build templates... Or duplicate template
+content across multiple templates manually. Buildar automates this and makes building
+all of your images with packer ezpz lemon squeezy.
 
 ## Installation
 
@@ -18,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+TODO: How does it work?
 
 ## Contributing
 
