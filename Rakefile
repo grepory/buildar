@@ -21,3 +21,8 @@ desc 'Runs test and code cleanliness suite: RuboCop, rspec, and yard'
 task run_guards: [:spec, :yard, :rubocop]
 
 task build: :run_guards
+
+task :reset do
+  sh('rm -rf templates/ images/ keys/')
+  sh('mkdir keys/')
+end

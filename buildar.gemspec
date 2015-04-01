@@ -22,6 +22,8 @@ Gem::Specification.new do |gem|
   gem.add_dependency('awesome_print', '~> 1.1.0')
   gem.add_dependency('abstract_type', '~> 0.0.7')
   gem.add_dependency('multi_json', '~> 1.10.1')
+  gem.add_dependency('mixlib-shellout')
+  gem.add_dependency('packer-config')
 
   # development dependencies.
   gem.add_development_dependency('rspec', '~> 3.2')
